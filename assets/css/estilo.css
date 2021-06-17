@@ -1,0 +1,38 @@
+.borda{
+    border: 5px solid rgb(253, 111, 111);
+}
+.tamanhologo{
+    width:200px;
+}
+.tampec{
+    width:100px;
+}
+.mycontainer{
+    margin-left: 5% !important;
+    margin-right:5% !important;
+}
+.icon-youtube{
+    background-image: url('../icones/youtube-brands.svg');
+    background-repeat: no-repeat;
+}
+.icon-insta{
+    background-image: url('../icones/instagram-brands.svg');
+    background-repeat: no-repeat;
+}
+.icon-githube{
+    background-image: url('../icones/github-brands.svg');
+    background-repeat: no-repeat;
+}
+.icon{
+    font-size: 5em;
+    min-width:100px ;
+    min-height:100px;
+    display:block;
+    
+}
+.orange{
+ color:orange;
+}
+.fundo_cor{
+    background-color: rgb(255, 198, 217);
+}
