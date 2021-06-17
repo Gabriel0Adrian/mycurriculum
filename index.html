@@ -5,11 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mycurri-cullum</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/estilo.css">
     <script src="assets/js/app.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
-<body>
     
+    
+<body>
+    <div class="mycontainer">
+        <div class="row fundo_cor">
+            <div class="col col-4 borda p-5 " >
+                <div class="text-center">
+                    <img src="assets/images/kaguya.png" alt="" class=" img-fluid">
+                </div>
+
+                <div class="p-5 text-center" onclick="exibirSobre();">
+                    <h1>Sobre</h1>
+                </div>
+
+                <div class="p-5 text-center" onclick="exibirHabilidade();">
+                    <h1>Habilidades</h1>
+                </div>
+
+                <div class="p-5 text-center" onclick="exibirForm();">
+                    <h1>Formação</h1>
+                </div>
+
+                <div class=" p-5 text-center" onclick="exibirHob();">
+                    <h1>Hobbies</h1>
+                </div>
+
+                <div class="p-5 text-center" onclick="exibirBok();">
+                    <h1>Books</h1>
+                </div>
+                <div class="d-flex justify-content-around p-5">
+                    <div>
+                        <i class="icon icon-githube orange"></i>
+                        <!-- <p class="text-center">GITHUB</p> -->
+                    </div>
+                    <div>
+                        <i class="icon icon-youtube "></i>
+                    </div>
+                    <div>
+                        <i class="icon icon-insta "></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col col-8 borda">
+                <div id="sobre">sorbe eu</div>
+                <div id="habiliade">habilidade</div>
+                <div id="formacao">formacao</div>
+                <div id="hobbie">hobbie</div>
+                <div id="books">books</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
