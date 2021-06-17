@@ -22,6 +22,7 @@
 .icon-githube{
     background-image: url('../icones/github-brands.svg');
     background-repeat: no-repeat;
+    fill:white;
 }
 .icon{
     font-size: 5em;
@@ -31,8 +32,13 @@
     
 }
 .orange{
- color:orange;
+    color:orange;
 }
+
 .fundo_cor{
-    background-color: rgb(255, 198, 217);
+    background-color: rgb(46, 45, 45);
+}
+body{
+    background-color: rgb(46, 45, 45);
+    color:whitesmoke;
 }
