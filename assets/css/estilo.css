@@ -1,5 +1,5 @@
 .borda{
-    border: 5px solid rgb(253, 111, 111);
+    border-right: 5px solid rgb(14, 14, 14);
 }
 .tamanhologo{
     width:200px;
@@ -34,5 +34,16 @@
  color:orange;
 }
 .fundo_cor{
-    background-color: rgb(255, 198, 217);
+    background-color: rgb(247, 152, 250);
+}
+#sobre,#habiliade,#formacao,#hobbie,#books{
+    display:none;
+}
+p{
+    font-size: 18px;
+    font-family:sans-serif;
+}
+.titulo h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: black 3px solid;
 }
