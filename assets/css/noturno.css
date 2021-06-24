@@ -1,0 +1,46 @@
+.modo-noturno{
+    background-color: black !important ;
+    color:white !important ;
+}
+
+
+.modo-noturno .borda{
+    border-right: 5px solid rgb(255, 255, 255);
+}
+.modo-noturno.titulo h1{
+    border-bottom: whitesmoke 3px solid;
+}
+
+
+.modo-noturno .icon-youtube{
+    background-image: url('../icones/youtube-brands.svg');
+    background-repeat: no-repeat;
+}
+.modo-noturno .icon-insta{
+    background-image: url('../icones/instagram-brands.svg');
+    background-repeat: no-repeat;
+}
+.modo-noturno .icon-githube{
+    background-image: url('../icones/github-brands.svg');
+    background-repeat: no-repeat;
+    fill:white;
+}
+.modo-noturno .icon{
+    font-size: 5em;
+    min-width:100px ;
+    min-height:100px;
+    display:block;
+    
+}
+.modo-noturno .orange{
+    color:orange;
+}
+.modo-noturno a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.modo-noturno a:hover{
+    color: rgb(136, 135, 135);
+}
+
+

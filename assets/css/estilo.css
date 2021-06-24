@@ -1,6 +1,16 @@
+
+
+.fundo_cor{
+    background-color: rgb(247, 152, 250);
+}
 .borda{
     border-right: 5px solid rgb(14, 14, 14);
 }
+.titulo h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: black 3px solid;
+}
+
 .tamanhologo{
     width:200px;
 }
@@ -35,9 +45,7 @@
     color:orange;
 }
 
-.fundo_cor{
-    background-color: rgb(247, 152, 250);
-}
+
 #sobre,#habiliade,#formacao,#hobbie,#books{
     display:none;
 }
@@ -45,7 +53,13 @@ p{
     font-size: 18px;
     font-family:sans-serif;
 }
-.titulo h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-bottom: black 3px solid;
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: whitesmoke;
+}
+.flamengo{
+    width: 400px;
 }
